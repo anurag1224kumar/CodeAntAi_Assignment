@@ -1,0 +1,7 @@
+.aiCodeReview-main-container{
+    @apply flex flex-col gap-14 items-center justify-center h-screen;
+}
+
+.aiCodeReview-text-heading{
+    @apply text-3xl sm:text-4xl lg:text-6xl font-extrabold text-gray-500;
+}

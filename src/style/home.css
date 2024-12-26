@@ -1,0 +1,19 @@
+.home-main-container {
+    @apply w-screen h-screen fixed flex flex-col;
+   @apply md:flex-row ;
+}
+
+.home-sideBar-container{
+    @apply border border-r-slate-300 bg-white py-2 px-2 fixed w-screen z-40 top-0 left-0 transition-transform duration-300;
+    @apply md:block md:w-[280px] md:h-[100vh] md:static md:z-auto md:transform-none  ;
+}
+
+.home-secondary-container{
+    @apply opacity-100 transition-opacity duration-300 mt-[30px] bg-white overflow-y-auto;
+    @apply md:w-full md:flex-1 md:border md:border-slate-300 md:m-6 md:mt-4 ;
+   
+} 
+
+.home-secondary-container::-webkit-scrollbar{
+    @apply hidden;
+}

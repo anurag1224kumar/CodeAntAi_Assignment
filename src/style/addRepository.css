@@ -1,0 +1,37 @@
+
+
+.addRepository-main-container {
+    @apply w-full h-full bg-gray-400 opacity-95 absolute flex items-center justify-center z-0 transition-colors duration-300;
+    @apply md:opacity-95;
+  }
+  
+  .addRepository-secondary-container {
+    @apply bg-white flex items-center justify-center w-3/5 h-3/5 rounded-lg shadow-xl z-10 relative;
+  }
+
+  .addRepository-message{
+    @apply text-green-600 flex justify-center my-2 ;
+  }
+  
+  .addRepository-search-container {
+    @apply mx-auto h-11 my-4 rounded-full shadow-xl transition-colors duration-300 ;
+    @apply md:w-[400px]
+  }
+
+  .addRepository-close-icon{
+    @apply absolute top-5 right-6;
+  }
+  
+  .addRepository-search-input{
+    @apply w-full h-full border border-slate-300 rounded-full shadow-inner px-8 focus:outline-none;
+    @apply md:w-full md:h-full;
+  }
+
+  .addRepository-submit-btn-container{
+    @apply flex items-baseline justify-center mt-5; 
+  }
+
+  .addRepository-submit-btn{
+    @apply w-24 p-1 rounded-full bg-blue-600 text-white font-semibold;
+    @apply hover:bg-blue-700 ;
+  }

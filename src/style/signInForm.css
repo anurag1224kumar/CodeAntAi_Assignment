@@ -1,0 +1,57 @@
+.signIn-container{
+    @apply bg-white;
+    @apply sm:w-full;
+    @apply md:absolute md:bottom-6 md:w-full;
+}
+
+.signIn-container-form{
+    @apply pb-9 w-full border border-gray-300 mt-20 rounded-t-lg p-4;
+    @apply md:pb-9 md:mt-40;
+}
+
+.welcome-text-container{
+    @apply justify-items-center mt-7 md:mt-8;
+}
+
+.welcome-text-font{
+    @apply font-bold text-xl;
+    @apply md:font-semibold md:text-3xl;
+}
+
+.btn1{
+    @apply w-52 h-14 border border-gray-300 font-bold text-gray-500 text-lg rounded-lg ;
+    @apply sm:font-semibold;
+    @apply md:text-gray-700 md:w-80 md:h-14 ;
+}
+
+.btn2{
+    @apply w-52 h-14 border border-gray-300 font-bold text-lg rounded-lg bg-blue-600 text-white ;
+    @apply sm:font-semibold;
+    @apply md:w-80 md:h-14 ;
+}
+
+.btn-container-saas{
+    @apply flex flex-col items-center border border-gray-300 py-4 rounded-b-lg;
+}
+
+.btn-container-self-hosted{
+    @apply flex flex-col items-center border border-gray-300 py-4 rounded-b-lg pb-40;
+}
+
+.btn{
+    @apply w-[90%] h-14 my-2 border border-gray-300 font-semibold text-black rounded-lg hover:bg-slate-100 flex flex-wrap items-center justify-center ;
+    @apply md:w-[60%] ;
+}
+
+.btn-github,.btn-gitlab,.btn-azure-devops{
+    @apply w-6 mr-4 ;
+}
+
+.btn-bigbucket{
+    @apply w-6 mr-5 ;  
+}
+
+.btn-sso-key{
+    @apply w-5 mr-4 ;
+}
+

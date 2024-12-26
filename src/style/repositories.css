@@ -1,0 +1,52 @@
+.repositories-main-container{
+    @apply bg-white w-full;
+}
+
+.repositories-container-title{
+    @apply font-bold text-2xl mt-6 ml-4 bg-white;
+}
+
+.repositories-secondary-container{
+    @apply border border-b-slate-300 mt-6 ;
+    @apply md:mt-0;
+}
+
+.repositories-tertiary-container{
+    @apply md:flex md:items-center justify-between;
+}
+
+.repositories-repository-count{
+    @apply text-sm ml-4 my-1;
+}
+.repositories-btn-container{
+    @apply flex my-3 ;
+    @apply md:mx-6 md:mt-6 md:text-base md:flex md:flex-col md:gap-2 ;
+    @apply lg:flex lg:flex-row lg:gap-0;
+    
+}
+
+.repositories-refresh-btn, .repositories-add-repo-btn{
+    @apply border border-slate-300 rounded-lg w-auto px-4 ml-4 flex h-10 items-center;
+    @apply hover:bg-blue-700 hover:text-white;
+    
+}
+
+.repositories-search-wrapper{
+    @apply flex relative w-full max-w-md;
+}
+
+/* .repositories-search-icon{
+    @apply absolute inset-y-0 left-6 flex items-center text-gray-500 ;
+} */
+
+.repositories-search-container-input{
+    @apply mx-4 border border-slate-300 rounded-lg h-11 flex items-center pr-12 pl-4 my-4 w-[90%] focus:outline-none focus:ring-1;
+    @apply md:w-[400px] ;
+}
+
+.repositories-search-icon-btn{
+    @apply absolute inset-y-0 right-7 flex items-center justify-center text-gray-500 rounded-lg h-9 w-10 mt-[20px] ;
+    /* @apply sm:right-8; */
+    @apply lg:right-10;
+    @apply hover:text-black;
+}

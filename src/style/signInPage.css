@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.signin-main-conatiner{
+   @apply w-screen h-screen fixed bg-white;
+   @apply md:flex md:flex-row ;
+  
+}
+
+.signin-image-container{
+     @apply hidden border border-r-gray-300 w-6/12  ;
+     @apply md:block ;
+     
+}
+
+.img-card{
+ 
+   @apply md:w-[30%] md:absolute md:bottom-52 md:left-32 md:mx-auto z-0 ;
+   @apply lg:w-[30%] lg:left-36 lg:bottom-52;
+   
+}
+
+.img-rabbit{
+    @apply  md:absolute md:-bottom-24 md:left-0;
+}
+
+.signin-form-container{
+    @apply w-[90%] mx-auto;
+    /* @apply md:mx-auto; */
+    @apply md:w-6/12 md:mx-6 md:relative md:justify-center;
+}

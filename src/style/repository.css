@@ -1,0 +1,26 @@
+.repository-main-container{
+    @apply p-4 border border-b-slate-300;
+    @apply hover:bg-slate-100;
+}
+
+.repository-primary-container{
+    @apply flex gap-3 items-center
+}
+
+.repository-type{
+    @apply border border-blue-400 px-2 text-xs rounded-2xl mt-1 text-blue-600 bg-blue-100; 
+}
+
+.repository-heading{
+    @apply font-bold text-lg text-gray-700 ;
+    @apply md:font-medium md:text-xl md:text-gray-800;
+}
+
+.repository-secondary-container{
+    @apply flex  mt-2 justify-between text-gray-700;
+    @apply md:text-gray-800 md:justify-normal md:gap-8;
+}
+
+.repository-language, .repository-file-size{
+    @apply flex items-center gap-1;
+}
